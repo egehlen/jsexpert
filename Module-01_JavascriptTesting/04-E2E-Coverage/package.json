@@ -1,0 +1,18 @@
+{
+    "dependencies": {
+        "mocha": "^9.2.2",
+        "nyc": "^15.1.0",
+        "supertest": "^6.2.2"
+    },
+    "name": "04-e2e-coverage",
+    "version": "1.0.0",
+    "main": "api.js",
+    "scripts": {
+        "test": "npx mocha -w *.test.js",
+        "test:cov": "npx nyc npx mocha --parallel *.test.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
